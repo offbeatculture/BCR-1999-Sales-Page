@@ -6,8 +6,8 @@ const faqs = [
     a: "That's fine. You come back the next morning and continue. One skipped day doesn't undo the practice. Consistency over time is what matters - not perfection.",
   },
   {
-    q: "I already know the techniques from Breath chakra reset. Why do I need this?",
-    a: "Knowing and doing every morning are different things. The 5 days gave you the understanding. This gives you the structure that makes it stick.",
+    q: "I already know the techniques from Breath Chakra Reset. Why do I need this?",
+    a: "Knowing and doing every morning are different things. The Breath Chakra Reset gave you the understanding. This gives you the structure that makes it stick.",
   },
   {
     q: "Is Dr. Valarrmathi present in every session?",
