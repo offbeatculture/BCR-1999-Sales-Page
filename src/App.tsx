@@ -1,4 +1,3 @@
-import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
 import { Hero } from "./components/sections/Hero";
 import { RealProblem } from "./components/sections/RealProblem";
@@ -10,11 +9,9 @@ import { SessionDetails } from "./components/sections/SessionDetails";
 import { FAQ } from "./components/sections/FAQ";
 import { Payment } from "./components/sections/Payment";
 import CoachSection from "./components/sections/CoachSection";
+import ThankYou from "./components/sections/ThankYou";
 
-
-
-
-export default function App() {
+function LandingPage() {
   return (
     <div className="bw-root">
       {/* <Navbar /> */}
@@ -25,10 +22,20 @@ export default function App() {
       <ConsistentPractice />
       <HRVGraph />
       <SessionDetails />
-      <CoachSection/>
+      <CoachSection />
       <FAQ />
       <Payment />
       <Footer />
     </div>
   );
+}
+
+export default function App() {
+  const path = window.location.pathname;
+
+  if (path === "/ty-breathwork") {
+    return <ThankYou />;
+  }
+
+  return <LandingPage />;
 }
